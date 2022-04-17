@@ -1,0 +1,15 @@
+server:
+    port: 8080
+
+log:
+    level: DEBUG
+
+deploy_env: staging
+
+namespace: default
+
+check_interval_seconds: 15
+
+configmap:
+    name: environment
+    namespace: default
